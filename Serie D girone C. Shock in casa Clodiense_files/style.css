@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+.centered { text-align:center }
+
+.titolonews { color:#1a1a1a; font-size:0.875em; margin-bottom:3px}
+
+.archivio { font-size: 0.625em; font-weight:normal; font-style:italic; line-height:2.8}
+
+#ticker { height: 334px; overflow: hidden; padding-top:4px }
+
+#ticker li { height: 55px; border-bottom: 1px dotted #a1a1a1; padding-top:0.475em }
+
+#ticker li a:link, #ticker li a:visited, #ticker li a:hover { color:#000; text-decoration:none}
+
+.rosso { background-color:#bb1900}
+
+.blu { background-color:#122244}
+
+.verde { background-color:#0d6101}
+
+.celeste { background-color:#007469}
+
+.magenta { background-color:#850129}
+
+.nero { background-color:#000000}
+
+.blue { background-color: #2297f2}
+
+.rubrica_z_top { width:100%; height:30px; color:#FFFFFF}
+
+.rubrica_z_top h2 { font-family:Arial, Helvetica, sans-serif; font-size:0.930em; color:#ffffff; line-height:2.2; font-weight:normal; padding-left:10px}
+
+.rubrica_z_top h2 img { vertical-align:-3%;}
+
+.rubrica_z { /*height:160px*/ }
+
+.rubrica_z a:link, .rubrica_z a:visited, .rubrica_z a:hover { color:#444; font-size:0.75em; font-weight:bold;}
+
+h3.archivioart { color:@#444; font-size:1em}
+
+.archiviocorpo { font-size:0.75em}
+
+.compleanno li { border-bottom:1px dotted #a1a1a1; padding:3px 0}
+
+.compleanno li a:link, .compleanno li a:visited, .compleanno li a:hover { color:#000}
+
+.footer-container { background-image:url('../img/bg-footer.png'); background-repeat:no-repeat; background-position: top center}
+
+.footer { padding: 1.5em; color:#fff;}
+
+.footer a:link,.footer a:visited,.footer a:hover { color:#fff; text-decoration:none; font-weight:bold}
+
+.footer p { font-size:0.75em}
+
+.rubriche a:link,.rubriche a:visited,.rubriche a:hover { color:#000; font-weight:bold}
+
+.accesso {border:solid 2px #dcdcdc; -moz-border-radius: 12px; -webkit-border-radius: 12px; border-radius: 12px; padding:1em}
+
+.archivioart a:link, .archivioart a:visited, .archivioart a:hover { font-size:1.175em; color:#1a1a1a;}
+
+.classifica_titolo1 {}
+
+.news_campionato { margin:1em 0; float: left;}
+
+.bannerlaterale {margin-top: 10px;}
+
+#bordo_ricerca{border-bottom:dotted 1px #333;clear:left;float:left; margin:1em 0; width:100%}
+#titolo_ricerca{clear:both}
+#corpo_ricerca{font-size:0.8em;clear:left}
+#firma_ricerca{font-size:10px;clear:left;float:left}
+#data_ricerca{font-size:10px;color:#F00;float:left}
+#titolo_ricerca a:link,#titolo_ricerca a:visited,#titolo_ricerca a:hover { color:#000; font-weight:bold; font-family:Georgia, "Times New Roman", Times, serif; font-size:1.25em}
+.classificamiddle{	font-size:0.95em; width:630px;}
+.calendariomiddle{	font-size:0.95em;}
+.menu-province{height: 25px;
+background-image: url('../images/bg_menusito.jpg');
+background-repeat: repeat-x;}
+#titolo-apertura{position: absolute; width:98%; color:white; background: transparent url('../images/back.black.80p.png') repeat 0 0;margin:0;padding:5px 0; font-size:1.7em
+}
+#titolo-apertura a:link,#titolo-apertura a:visited{color:#FFF; margin:0;}
+#titolo-apertura a:hover{text-decoration:underline}
+
+.rubriche_dx {margin-bottom:1.250em}
+.archivioprov1{font-size: 0.85em; line-height:1.3em;}
+.archivioprov2{font-size: 0.75em;line-height:1.3em;}
+.colorcampio {color:#0054c2;}
+.colorcampio a:link,.colorcampio a:visited {color:#0054c2;}
+.classifica-squadra {color:#0054c2; font-size: 1.15em; line-height:1.55em;font-weight:bold}
+.classifica-squadra a:link,.classifica-squadra a:visited{color:#0054c2; font-weight:bold}
+.classifica-data {font-size: 1.20em;}
+
+.disqus_comments a:link { color:red};
+
+.menu-nuovo {
+padding: 0 5px;
+line-height: 40px;
+font-size: 0.8125em;
+/*background: #fff;*/ }
+.menu-nuovo a:visited,.menu-nuovo a:link{color:#333;
+padding: 8px 10px;
+font-size: 0.8125em;
+font-weight: bold}
+.menu-nuovo :hover {
+background: #F2F2F2;
+color:#666;
+height:39px; }
+.menu-nuovo a:visited:hover,.menu-nuovo a:link:hover{color:#666;}
+.divisore {
+height: 35px;
+width: 3px;
+padding:7px 0 7px 0;
+}
+
+.menu-classifica{color:black; font-size: 1.00em; line-height: 1.20em;font-weight:bold}
+.menu-classifica a:link,.menu-classifica a:visited{color:black; font-weight:bold}
+.menu-classifica-prov{color:black; font-size: 1.00em; line-height: 1.60em;font-weight:bold}
+.menu-classifica-prov a:link,.menu-classifica-prov a:visited{color:black; font-weight:bold}
+
+
+
+.menu_risultati{text-align:center; color:#FFF; margin-left:2px; font-size:0.9em; margin-bottom:0;background-image:url('../images/bg-menu-squadre.png'); background-repeat:repeat-x; font-weight:bold;}
+.menu_risultati a:link,.menu_risultati a:visited {color:black;}
+
+.menu-nuovo-italia {
+line-height: 20px;
+font-size: 0.8125em;;
+/*background: #fff;*/ }
+.menu-nuovo-italia a:visited,.menu-nuovo-italia a:link{color: #111;
+padding: 1px 4px;
+font-size: 1.18em;
+font-weight: bold;}
+.menu-nuovo-italia :hover {
+background: #aaa;
+color:whitesmoke;
+height:39px; }
+.menu-nuovo-italia a:visited:hover,.menu-nuovo-italia a:link:hover{color:whitesmoke;}
+#tabute{margin:15px 0;}
+.rubrica_z li{list-style-type: none;}
+.video-rep{float: left;}
+.video .testata {text-transform: uppercase;color: #087bbb; font-weight:700;}
+.styled-select select {
+    width: 10.714em;
+   float: right;}
+
+.contenuto_articolo{font-size: 1em; line-height: 1.5}
